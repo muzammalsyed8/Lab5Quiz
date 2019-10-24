@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Lab5Quiz:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab5Quiz_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Lab5Quiz/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Lab5Quiz" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
