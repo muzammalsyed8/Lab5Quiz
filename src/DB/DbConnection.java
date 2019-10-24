@@ -25,7 +25,7 @@ public class DbConnection {
 
     public void insertData(int ID, String Username, String Password,String Email, Date DOB, int Phone, int Fee, String Course, String Gender ){
         try {
-            String sqlQuery = "INSERT INTO registration(id,username,password,email,dob,phone,fee,course,gender) VALUES(?,?,?,?,?,?,?,?,?)";
+            String sqlQuery = "INSERT INTO quiz(id,name,password,email,dob,phone,fee,course,gender) VALUES(?,?,?,?,?,?,?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery);
             preparedStatement.setInt(1,ID);
             preparedStatement.setString(2,Username);
